@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #008b8b;
+    padding: 0 10px;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.wrapper .title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.details{
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_area{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_area label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.wrapper .form .input_area .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.wrapper .form .input_area #gender{
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.wrapper .form .input_area #DOB{
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    outline: none;
+}
+
+.wrapper .form .input_area #color{
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+    padding: 1px 1px;
+    outline: none;
+}
+
+.wrapper .form .input_area .register{
+    width: 100%;
+    border: 0;
+    background: #008b8b;
+    font-size: 15px;
+    padding: 8px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.wrapper .form .input_area .input:focus,
+.wrapper .form .input_area #gender:focus,
+.wrapper .form .input_area #DOB:focus,
+.wrapper .form .input_area #color:focus{
+    border: 1px solid #ff0000;
+}

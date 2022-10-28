@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration and Login Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="login.html">
+      <main>
+        <section class="wrapper">
+          <p class="title">Registration Form</p>
+          <div class="form">
+            <div class="input_area">
+              <label for="fname">First Name:</label>
+              <input type="text" class="input" required />
+            </div>
+            <div class="input_area">
+              <label for="lname">Last Name:</label>
+              <input type="text" class="input" required />
+            </div>
+            <div class="input_area">
+              <label for="phone_no">Phone Number:</label>
+              <input type="text" class="input" />
+            </div>
+            <div class="input_area">
+              <label for="email">Email:</label>
+              <input type="text" class="input" required />
+            </div>
+            <div class="input_area">
+              <label for="gender">Select gender</label>
+              <select name="gender" id="gender">
+                <option value="#">select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="input_area">
+              <label for="DOB">Date of Birth</label>
+              <input
+                type="date"
+                name="DOB"
+                id="DOB"
+                max="2022-12-31"
+                min="1980-01-01"
+              />
+            </div>
+            <div class="input_area">
+              <label for="color">Favourite Color</label>
+              <input type="color" id="color" />
+            </div>
+            <div class="input_area">
+              <input type="submit" value="Register" class="register" />
+            </div>
+          </div>
+        </section>
+      </main>
+    </form>
+  </body>
+</html>
